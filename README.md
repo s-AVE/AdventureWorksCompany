@@ -24,19 +24,19 @@ Last but not least, I applied Power BI Optimization Tools using Performance Anal
 
 ## Table of Content
 📁 1. [Problem Statement](#1-problem-statement)  
-Review JOIN basics (INNER, LEFT, RIGHT, OUTER) and introduce variations like self joins, CROSS JOINs, and more.
+<descriotion>
 
 📁 2. [Skills Demonstrated](#2-skills-demonstrated)  
-Learn how to write subqueries and Common Table Expressions and understand the best situations for using certain techniques.
+<descriotion>
 
 📁 3. [Data Sourcing](#3-Window-functions)  
-Introduce window functions to perform calculations across a set of rows and discuss various function options and applications.
+<descriotion>
 
 📁 4. [Data Transformation](#4-data-transformation)  
-Discover the many SQL functions that can be applied to fields of numeric, datetime, string, and NULL data types.
+<descriotion>
 
 📁 5. [Data Modeling](#5-data-modeling)  
-Apply advanced querying techniques to common data analysis scenarios, including pivoting data, rolling calculations, and more.
+<descriotion>
 
 📁 6. [Data Visualization](#6-data-visualization)
 
