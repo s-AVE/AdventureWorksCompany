@@ -23,33 +23,32 @@ Last but not least, I applied Power BI Optimization Tools using Performance Anal
 
 
 ## Table of Content
-📁 1. [Multi-table Analysis](#1-multi-table-analysis)  
+📁 1. [Problem Statement](#1-problem-statement)  
 Review JOIN basics (INNER, LEFT, RIGHT, OUTER) and introduce variations like self joins, CROSS JOINs, and more.
 
-📁 2. [Subquery and CTE](#2-subquery-and-ctes)  
+📁 2. [Skills Demonstrated](#2-skills-demonstrated)  
 Learn how to write subqueries and Common Table Expressions and understand the best situations for using certain techniques.
 
-📁 3. [Window Functions](#3-Window-functions)  
+📁 3. [Data Sourcing](#3-Window-functions)  
 Introduce window functions to perform calculations across a set of rows and discuss various function options and applications.
 
-📁 4. [Funtions by Data Type](#4-functions-by-data-type)  
+📁 4. [Data Transformation](#4-data-transformation)  
 Discover the many SQL functions that can be applied to fields of numeric, datetime, string, and NULL data types.
 
-📁 5. [Data Analysis Applications](#5-data-analysis-applications)  
+📁 5. [Data Modeling](#5-data-modeling)  
 Apply advanced querying techniques to common data analysis scenarios, including pivoting data, rolling calculations, and more.
 
-## 1. Multi-table Analysis
-- There are two ways to combine multiple tables into a single table for analysis:
-     - `JOIN` add related columns from one table to another, based on common columns.
-     - `UNION` stacks the rows from multiple tables with the same column structure.
+📁 6. [Data Visualization](#6-data-visualization)
 
+📁 7. [Data Analysis](#7-data-analysis)
 
-- Use **JOIN** to combine two tables based on common values in a column(s)
-     - The tables must have at least one column with matching values
-     - Basic JOIN options include `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, and `FULL OUTER JOIN`.
+📁 8. [Conclusions](#8-conclusions)
 
-- Use a **UNION** to **stack multiple tables** or queries on top of one another
-     - **`UNION` removes duplicate values**, while **`UNION ALL` retains them**
+📁 9. [Conclusion](#8-Recommendations)
+
+## 1. Problem Statement
+1. basbvasdb
+2. asdfasf
 
 >[!TIP]
 > If you know there are no duplicate values in the two tables you're combining a `UNION ALL` will run much faster than a `UNION`.
