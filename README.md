@@ -3,23 +3,23 @@
 ![](image.png)
 
 ## INTRODUCTION
-This portfolio presents a Power BI project developed as part of my learning journey through the Maven Analytics online course titled "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/)." The project reflects hands-on exercises and guided challenges provided within the course framework, applied to a real-world business dataset — Adventure Works Bike Shop (2020–2022).
+This portfolio presents a Power BI project developed as part of my learning journey through the Maven Analytics online course titled "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/)." The project reflects hands-on exercises and guided challenges provided within the course framework, applied to a real-world business dataset Adventure Works Bike Shop (2020–2022).
 
-The structure and flow of this project follow the curriculum designed by the Maven Analytics team, emphasizing practical, real-world applications of Power BI — including data transformation, data modeling, DAX calculations, interactive reporting, AI-powered visuals, and performance optimization.
+The structure and flow of this project follow the curriculum designed by the Maven Analytics team, emphasizing practical, real-world applications of Power BI including data transformation, data modeling, DAX calculations, interactive reporting, AI-powered visuals, and performance optimization.
 
 This repository serves both as a personal learning milestone and a reference point for others exploring Power BI for business intelligence and data analytics.
 
-I started by connecting and shaping data using Power Query — cleaning, transforming, and combining multiple data sources including sales transactions, customer lookup, product catalog, and calendar tables through applied steps, merges, and appends.
+I started by connecting and shaping data using Power Query cleaning, transforming, and combining multiple data sources including sales transactions, customer lookup, product catalog, and calendar tables through applied steps, merges, and appends.
 
 Next, I built a structured data model by defining table relationships, managing filter flow directions, and organizing a clean star schema to support accurate cross-table analysis.
 
-From there, I created calculated fields using DAX — writing measures and calculated columns for KPIs such as Total Revenue, Profit, Return Rate, Revenue per Customer, and dynamic period-over-period comparisons using CALCULATE, DIVIDE, DATEADD, HASONEVALUE, and SELECTEDVALUE.
+From there, I created calculated fields using DAX writing measures and calculated columns for KPIs such as Total Revenue, Profit, Return Rate, Revenue per Customer, and dynamic period-over-period comparisons using CALCULATE, DIVIDE, DATEADD, HASONEVALUE, and SELECTEDVALUE.
 
-I then visualized the data through interactive report pages — including an Executive Summary, Customer Detail, and Product Detail dashboard — featuring KPI cards, trend line charts, donut charts, gauge visuals, conditional formatting, drill-through, and dynamic tooltips styled with a consistent Slate & Sage theme.
+I then visualized the data through interactive report pages including an Executive Summary, Customer Detail, and Product Detail dashboard featuring KPI cards, trend line charts, donut charts, gauge visuals, conditional formatting, drill-through, and dynamic tooltips styled with a consistent Slate & Sage theme.
 
 I also explored Power BI's Artificial Intelligence features, including AI-powered visuals to surface automatic insights and anomaly detection within the trend data.
 
-Last but not least, I applied Power BI Optimization Tools — using Performance Analyzer to identify slow visuals and DAX queries, reducing model size through unused column removal, and structuring dedicated measure tables to keep the data model clean and maintainable.
+Last but not least, I applied Power BI Optimization Tools using Performance Analyzer to identify slow visuals and DAX queries, reducing model size through unused column removal, and structuring dedicated measure tables to keep the data model clean and maintainable.
 
 
 ## Table of Content
