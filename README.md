@@ -40,25 +40,44 @@ The dataset is based on the AdventureWorks sample database provided by Microsoft
 | Table | Description |
 |---|---|
 | Sales Data | Transaction-level fact table |
+| Return Data | Return transaction-level fact table |
 | Customer Lookup | Customer demographics and attributes |
 | Product Lookup | Product names, categories, and pricing |
 | Product Categories | Product category hierarchy |
+| Product Subcategories | Product subcategory hierarchy |
 | Territory Lookup | Sales region and continent |
 | Calendar Lookup | Date dimension table |
 
 📁 4. [Data Transformation](#4-data-transformation)  
-<descriotion>
+Data was cleaned and transformed using Power Query (M Language):
+
+- Removed duplicate and null rows from Sales Data
+- Standardized date formats across all tables
+- Created calculated column
+- Merged Product Lookup with Product Categories to create a unified product dimension
+- Filtered irrelevant columns to reduce model size and improve performance
 
 📁 5. [Data Modeling](#5-data-modeling)  
-<descriotion>
+- **Fact Table**: Sales Data (transactions), Return Data (transaction)
+- **Dimension Tables**: Customer, Product, Territory, Calendar, Category Product, and Subcategory Product
+- All relationships are **single-direction** (one-to-many)
+- A dedicated **measure table** (`_Measures`) stores all DAX calculations separately from raw data tables
+- No bi-directional relationships to maintain query performance
 
 📁 6. [Data Visualization](#6-data-visualization)
+The dashboard consists of 3 report pages:
+- Executive Summary
+- Product Detail
+- Customer Detail
 
 📁 7. [Data Analysis](#7-data-analysis)
+Key findings from the dashboard.
 
 📁 8. [Conclusions](#8-conclusions)
+Findings from dashboard.
 
-📁 9. [Conclusion](#8-Recommendations)
+📁 9. [Recommedations](#8-Recommendations)
+Recommendation for upselling product.
 
 ## 1. Problem Statement
 1. basbvasdb
