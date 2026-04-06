@@ -24,13 +24,27 @@ Last but not least, I applied Power BI Optimization Tools using Performance Anal
 
 ## Table of Content
 📁 1. [Problem Statement](#1-problem-statement)  
-<descriotion>
+Adventure Works Bike Shop needed a centralized view of their business performance across sales, customers, and products. The goal was to build an interactive dashboard that enables data-driven decisions by tracking revenue, profit, orders, return rates, and customer behavior over a 2.5-year period (Jan 2020 – Jun 2022).
 
 📁 2. [Skills Demonstrated](#2-skills-demonstrated)  
-<descriotion>
+- **DAX** — custom measures for KPIs, dynamic labels, conditional logic, and time intelligence (DATEADD, DATESMTD)
+- **Power Query** — data cleaning, column transformation, and table merging
+- **Data Modeling** — star schema design with fact and dimension tables
+- **Data Visualization** — KPI cards, gauge charts, line charts, donut charts, and matrix tables
+- **Conditional Formatting** — dynamic colors based on performance vs target
+- **UX Design** — consistent color theme, layout hierarchy, and slicer interactions
 
 📁 3. [Data Sourcing](#3-Window-functions)  
-<descriotion>
+The dataset is based on the AdventureWorks sample database provided by Microsoft. It consists of 6 tables:
+
+| Table | Description |
+|---|---|
+| Sales Data | Transaction-level fact table |
+| Customer Lookup | Customer demographics and attributes |
+| Product Lookup | Product names, categories, and pricing |
+| Product Categories | Product category hierarchy |
+| Territory Lookup | Sales region and continent |
+| Calendar Lookup | Date dimension table |
 
 📁 4. [Data Transformation](#4-data-transformation)  
 <descriotion>
