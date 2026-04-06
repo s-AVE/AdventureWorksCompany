@@ -50,7 +50,6 @@ The dataset is based on the AdventureWorks sample database provided by Microsoft
 
 📁 4. [Data Transformation](#4-data-transformation)  
 Data was cleaned and transformed using Power Query (M Language):
-
 - Removed duplicate and null rows from Sales Data
 - Standardized date formats across all tables
 - Created calculated column
@@ -70,13 +69,13 @@ The dashboard consists of 3 report pages:
 - Product Detail
 - Customer Detail
 
-📁 7. [Data Analysis](#7-data-analysis)
-Key findings from the dashboard.
+📁 7. [Data Analysis](#7-data-analysis)  
+Analysis the dashboard.
 
-📁 8. [Conclusions](#8-conclusions)
+📁 8. [Conclusions](#8-conclusions)  
 Findings from dashboard.
 
-📁 9. [Recommedations](#8-Recommendations)
+📁 9. [Recommendations](#9-reccomendations)  
 Recommendation for upselling product.
 
 ## 1. Problem Statement
