@@ -1,6 +1,7 @@
 # AdventureWorksCompany-PowerBI-Dashboard 
 
 ![](header.png)
+![](header.png)
 
 ## INTRODUCTION
 This portfolio presents a collection of SQL queries developed as part of my learning journey through the Maven Analytics online course titled "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/)." Each query in this repository reflects the hands-on exercises and guided challenges provided within the course framework.  
