@@ -60,7 +60,7 @@ Data was cleaned and transformed using Power Query (M Language):
 - **Fact Table**: Sales Data (transactions), Return Data (transaction)
 - **Dimension Tables**: Customer, Product, Territory, Calendar, Category Product, and Subcategory Product
 - All relationships are **single-direction** (one-to-many)
-- A dedicated **measure table** (`_Measures`) stores all DAX calculations separately from raw data tables
+- A dedicated **measure table** (`Measures`) stores all DAX calculations separately from raw data tables
 - No bi-directional relationships to maintain query performance
 
 📁 6. [Data Visualization](#6-data-visualization)
