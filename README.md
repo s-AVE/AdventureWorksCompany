@@ -1,6 +1,6 @@
 # AdventureWorksCompany-PowerBI-Dashboard 
 
-![](header.png)
+![](img.png)
 ![](header.png)
 
 ## INTRODUCTION
