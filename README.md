@@ -70,13 +70,13 @@ The dashboard consists of 3 report pages:
 - Customer Detail
 
 📁 7. [Data Analysis](#7-data-analysis)  
-Analysis the dashboard.
+Examines sales, customer, and product data to identify performance trends, behavioral patterns, and business risks across the 2020–2022 period.
 
 📁 8. [Conclusions](#8-conclusions)  
-Findings from dashboard.
+Summarizes key findings from the analysis, highlighting the most critical insights across revenue, customer segments, and product performance.
 
 📁 9. [Recommendations](#9-reccomendations)  
-Recommendation for upselling product.
+Proposes actionable next steps based on the analysis findings to improve sales performance, customer retention, and product strategy.
 
 ## 1. Problem Statement
 1. basbvasdb
