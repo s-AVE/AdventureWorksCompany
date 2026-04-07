@@ -55,6 +55,7 @@ Adventure Works Bike Shop needed a centralized view of their business performanc
 9. How is product profit trending over time and is it consistently hitting targets?
 
 ## 2. **Skills Demonstrated**
+- **Power Query** - Using Power Query to clean, transform, and shape raw data into an analysis-ready format, ensuring accuracy and consistency.
 - **DAX** — custom measures for KPIs, dynamic labels, conditional logic, and time intelligence (DATEADD, DATESMTD)
 - **Power Query** — data cleaning, column transformation, and table merging
 - **Data Modeling** — star schema design with fact and dimension tables
