@@ -88,6 +88,13 @@ Data was cleaned and transformed using Power Query (M Language):
   - ![](Assets/created_calculatedcolumn.png)
 - Filtered irrelevant columns to reduce model size and improve performance
   - ![](Assets/remove_irrelevantcolumn.png)
+- Custom Calculation (DAX Measure)
+  - Page 1: Executive Dashboard
+    - ![](Assets/DAX_executive.png)
+  - Page 2: Product Detail Dashboard
+    - ![](Assets/DAX_product.png)
+  - Page 3: Customer Detail Dashboard
+    - ![](Assets/DAX_customer.png)
 
 ## 5. **Data Modeling**
 ![](Assets/table_relationship.png)
@@ -98,16 +105,18 @@ Data was cleaned and transformed using Power Query (M Language):
 - No bi-directional relationships to maintain query performance
 
 ## 6. **Data Visualization**  
-![](Assets/Dashboard.png)
+![](Assets/dashboard.png)
 The dashboard consists of 3 report pages:
 - Executive Summary
-  - ![]Assets/dashboard_executive.jpg)
+  - ![](Assets/dashboard_executive.jpg)
 - Product Detail
-  - ![]Assets/dashboard_product_detail.jpg)
+  - ![](Assets/dashboard_product_detail.jpg)
 - Customer Detail
-  - ![]Assets/dashboard_cutomer_detail.jpg)
+  - ![](Assets/dashboard_cutomer_detail.jpg)
 
 ## 7. **Data Analysis**  
+**Insight:**
+
 Examines sales, customer, and product data to identify performance trends, behavioral patterns, and business risks across the 2020–2022 period.
 
 ## 8. **Conclusions**  
