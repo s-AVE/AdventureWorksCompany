@@ -55,9 +55,9 @@ Adventure Works Bike Shop needed a centralized view of their business performanc
 9. How is product profit trending over time and is it consistently hitting targets?
 
 ## 2. **Skills Demonstrated**
-- **Power Query** — Using Power Query to clean, transform, and shape raw data into an analysis-ready format, ensuring accuracy and consistency.
-- **DAX** — custom measures for KPIs, dynamic labels, conditional logic, and time intelligence (DATEADD, DATESMTD)
-- **Power Query** — data cleaning, column transformation, and table merging
+- **Data Transformation**  
+  - **Power Query** — Using Power Query to clean, transform, and shape raw data into an analysis-ready format, ensuring accuracy and consistency.
+  - **DAX** — custom measures for KPIs, dynamic labels, conditional logic, and time intelligence (DATEADD, DATESMTD)
 - **Data Modeling** — star schema design with fact and dimension tables
 - **Data Visualization** — KPI cards, gauge charts, line charts, donut charts, and matrix tables
 - **Conditional Formatting** — dynamic colors based on performance vs target
@@ -78,7 +78,7 @@ The dataset is based on the AdventureWorks sample database provided by Microsoft
 | Calendar Lookup | Date dimension table |
 
 ## 4. **Data Transformation**  
-Data was cleaned and transformed using Power Query (M Language):
+Data was **cleaned** and transformed using Power Query (M Language):
 - Removed duplicate and null rows from all Data
   - ![](Assets/removing_error.png)
 - Standardized date formats across all tables and creating column for every date element
