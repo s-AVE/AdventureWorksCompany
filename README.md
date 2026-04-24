@@ -79,13 +79,18 @@ The dataset is based on the AdventureWorks sample database provided by Microsoft
 
 ## 4. **Data Transformation**  
 Data was cleaned and transformed using Power Query (M Language):
-- Removed duplicate and null rows from Sales Data
-- Standardized date formats across all tables
+- Removed duplicate and null rows from all Data
+  - ![](Assets/removing_error.png)
+- Standardized date formats across all tables and creating column for every date element
+  - ![](Assets/change_localdate.png)
+  - ![](Assets/creating_columndate.png)
 - Created calculated column
-- Merged Product Lookup with Product Categories to create a unified product dimension
+  - ![](Assets/created_calculatedcolumn.png)
 - Filtered irrelevant columns to reduce model size and improve performance
+  - ![](Assets/remove_irrelevantcolumn.png)
 
 ## 5. **Data Modeling**
+![](Assets/table_relationship.png)
 - **Fact Table**: Sales Data (transactions), Return Data (transaction)
 - **Dimension Tables**: Customer, Product, Territory, Calendar, Category Product, and Subcategory Product
 - All relationships are **single-direction** (one-to-many)
@@ -93,10 +98,14 @@ Data was cleaned and transformed using Power Query (M Language):
 - No bi-directional relationships to maintain query performance
 
 ## 6. **Data Visualization**  
+![](Assets/Dashboard.png)
 The dashboard consists of 3 report pages:
 - Executive Summary
+  - ![](Assets/dashboard_executive.jpg)
 - Product Detail
+  - ![](Assets/dashboard_product_detail.jpg)
 - Customer Detail
+  - ![](Assets/dashboard_cutomer_detail.jpg)
 
 ## 7. **Data Analysis**  
 Examines sales, customer, and product data to identify performance trends, behavioral patterns, and business risks across the 2020–2022 period.
