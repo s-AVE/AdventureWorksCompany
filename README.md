@@ -13,7 +13,7 @@ I started by connecting and shaping data using Power Query cleaning, transformin
 
 Next, I built a structured data model by defining table relationships, managing filter flow directions, and organizing a clean star schema to support accurate cross-table analysis.
 
-From there, I created calculated fields using DAX writing measures and calculated columns for KPIs such as Total Revenue, Profit, Return Rate, Revenue per Customer, and dynamic period-over-period comparisons using CALCULATE, DIVIDE, DATEADD, HASONEVALUE, and SELECTEDVALUE.
+From there, I created calculated fields using DAX writing measures and calculated columns for KPIs such as Total Revenue, Profit, Return Rate, Revenue per Customer, and dynamic period-over-period comparisons using CALCULATE, DIVIDE, DATEADD, and HASONEVALUE.
 
 I then visualized the data through interactive report pages including an Executive Summary, Customer Detail, and Product Detail dashboard featuring KPI cards, trend line charts, donut charts, gauge visuals, conditional formatting, drill-through, and dynamic tooltips styled with a consistent Slate & Sage theme.
 
@@ -89,11 +89,11 @@ Data was **cleaned** and transformed using Power Query (M Language):
 - Filtered irrelevant columns to reduce model size and improve performance
   - ![](Assets/remove_irrelevantcolumn.png)
 - Custom Calculation (DAX Measure)
-  - Page 1: Executive Dashboard
+  - Page 1: **Executive Dashboard**
     - ![](Assets/DAX_executive.png)
-  - Page 2: Product Detail Dashboard
+  - Page 2: **Product Detail Dashboard**
     - ![](Assets/DAX_product.png)
-  - Page 3: Customer Detail Dashboard
+  - Page 3: **Customer Detail Dashboard**
     - ![](Assets/DAX_customer.png)
 
 ## 5. **Data Modeling**
@@ -107,15 +107,20 @@ Data was **cleaned** and transformed using Power Query (M Language):
 ## 6. **Data Visualization**  
 ![](Assets/dashboard.png)
 The dashboard consists of 3 report pages:
-- Executive Summary
+- **Executive Summary**
   - ![](Assets/dashboard_executive.jpg)
-- Product Detail
+- **Product Detail**
   - ![](Assets/dashboard_product_detail.jpg)
-- Customer Detail
+- **Customer Detail**
   - ![](Assets/dashboard_cutomer_detail.jpg)
 
 ## 7. **Data Analysis**  
 **Insight:**
+
+> [!IMPORTANT]
+> Despite all this, you shouldn't forget about subqueries:
+> - Most modern RDBMS support CTE, but not all of them do.
+> - For simple subqueries, sometimes a subquery is readable enough and works just fine.
 
 Examines sales, customer, and product data to identify performance trends, behavioral patterns, and business risks across the 2020–2022 period.
 
