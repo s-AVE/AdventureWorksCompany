@@ -101,11 +101,11 @@ Data was cleaned and transformed using Power Query (M Language):
 ![](Assets/Dashboard.png)
 The dashboard consists of 3 report pages:
 - Executive Summary
-  - ![](Assets/dashboard_executive.jpg)
+  - ![]Assets/dashboard_executive.jpg)
 - Product Detail
-  - ![](Assets/dashboard_product_detail.jpg)
+  - ![]Assets/dashboard_product_detail.jpg)
 - Customer Detail
-  - ![](Assets/dashboard_cutomer_detail.jpg)
+  - ![]Assets/dashboard_cutomer_detail.jpg)
 
 ## 7. **Data Analysis**  
 Examines sales, customer, and product data to identify performance trends, behavioral patterns, and business risks across the 2020–2022 period.
