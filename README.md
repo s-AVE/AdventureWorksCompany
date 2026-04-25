@@ -400,3 +400,10 @@ carry higher revenue-per-transaction potential.
 
 
 _Source of Curriculum and Dataset: Maven Analytics_
+
+### Repository Contents
+ - Power BI Dashboard File: The main PBIX File containing the analysis and visualizations.
+ - Data Sources: Raw Dataset used in the project.
+ - Screenshots/Reports: Exported visualizations for sharing insights.
+ - README.md: Project documentation (this file)
+
