@@ -108,10 +108,13 @@ Data was **cleaned** and transformed using Power Query (M Language):
 ![](Assets/dashboard.png)
 The dashboard consists of 3 report pages:
 - **Executive Summary**
+  ---
   - ![](Assets/dashboard_executive.jpg)
 - **Product Detail**
+  ---
   - ![](Assets/dashboard_product_detail.jpg)
 - **Customer Detail**
+  ---
   - ![](Assets/dashboard_cutomer_detail.jpg)
 
 ## 7. Data Analysis
@@ -296,7 +299,6 @@ universal demand. Beyond this product, continental preferences
 diverge considerably, suggesting that a one-size-fits-all approach
 to inventory and promotions is suboptimal.
 
----
 
 ## 9. Recommendations
 
