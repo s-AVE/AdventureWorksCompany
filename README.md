@@ -263,8 +263,8 @@ having the highest transaction frequency.
 Adventure Works recorded strong and consistent revenue growth
 throughout January 2020 – June 2022. Total revenue grew from $5.4M
 (2020) to $9.7M (2021), and the first half of 2022 alone already
-reached $9.2M indicating that full year 2022 could potentially
-exceed $18M if the trend continues. This growth was primarily driven
+reached $9.2M indicating that full year 2022 could **potentially
+exceed $18M** if the trend continues. This growth was primarily driven
 by the expansion of the Accessories product line and the steady
 performance of Bikes as the most profitable category.
 
@@ -282,22 +282,22 @@ However, distribution is uneven: Pacific records the highest return
 rate (2.25%) particularly for Vests, while Shorts is the most
 returned product type across Europe and North America. Water Bottle -
 30 oz., despite being the top-selling product across all continents,
-also records the highest absolute returns within Accessories — this
+also records the highest absolute returns within Accessories this
 warrants ongoing monitoring.
 
 ### Customer Profile
-Adventure Works' core market consists of middle-to-low income,
-mature-aged customers (average age 64), predominantly from the
-Professional and Skilled Manual occupation segments, which together
+Adventure Works core market consists of **middle-to-low income**,
+**mature-aged customers** (average age 64), predominantly from the
+**Professional and Skilled Manual occupation** segments, which together
 contribute 55.2% of total transactions. The fact that 86.9% of
 transactions come from Average and Low Income segments indicates
 that Adventure Works has successfully positioned itself as an
-accessible brand — though this also reveals limited penetration
+accessible brand though this also reveals **limited penetration**
 into higher-spending segments.
 
 ### Market Distribution
 Water Bottle - 30 oz. is the only product that consistently ranks
-as the top seller across all three continents — signaling reliable
+as the top seller across all three continents signaling reliable
 universal demand. Beyond this product, continental preferences
 diverge considerably, suggesting that a one-size-fits-all approach
 to inventory and promotions is suboptimal.
@@ -309,11 +309,11 @@ to inventory and promotions is suboptimal.
 ### 1) Prioritize Bike Sales to Drive Profitability
 Given that Bikes generate 25x more profit than Accessories per
 category, an upselling strategy from Accessories to Bikes should
-be strengthened. Customers who frequently purchase Accessories —
-particularly Tires and Tubes and Patch Kits — are ideal candidates
+be strengthened. Customers who frequently purchase Accessories
+particularly Tires and Tubes and Patch Kits are ideal candidates
 to be introduced to entry-level Bikes such as the Mountain-200.
 
-**Action:** Develop bundle promotions where the purchase of select
+**Action:** Develop **bundle promotions** where the purchase of select
 accessories includes a discount on entry-level Bike products to
 drive category upgrades.
 
@@ -335,13 +335,13 @@ deliver better results than a unified global approach:
 
 ### 3) Quality Control for High-Return Products
 Shorts (highest return type in Europe & North America) and Vests
-(highest return type in Pacific) should be prioritized for quality
-review. Recommended steps:
-- Improve size guides on product pages to reduce fit-related returns
+(highest return type in Pacific) should be prioritized for **quality
+review**. Recommended steps:
+- Improve size guides on product pages to reduce fit related returns.
 - Add customer review sections to help prospective buyers set
-  accurate expectations
+  accurate expectations.
 - Conduct pre-shipment quality sampling for continents with the
-  highest return rates, particularly Pacific (2.25%)
+  highest return rates, particularly Pacific (2.25%).
 
 ---
 
@@ -353,22 +353,22 @@ within acceptable bounds. This product serves as a critical
 traffic driver across all markets.
 
 **Action:** Position Water Bottle as the anchor product in
-cross-continent marketing campaigns, and consider bundling it
+cross-continent marketing campaigns, and consider **bundling it**
 with complementary Accessories to increase average order value.
 
 ---
 
 ### 5) Retention Strategy for the Professional Segment
 The Professional segment contributes 31.6% of all transactions and
-demonstrates higher spending per transaction — as evidenced by
+demonstrates higher spending per transaction as evidenced by
 top customer Mr. Maurice Shan at $2,068 per transaction versus the
 $1,431 customer average. This segment is the most valuable to retain.
 
 **Action:**
-- Implement a loyalty program targeting repeat buyers
-- Offer early access to new products for top-spending customers
+- Implement a loyalty program targeting repeat buyers.
+- Offer early access to new products for top-spending customers.
 - Introduce membership tiers based on cumulative spending to
-  incentivize higher transaction frequency
+  incentivize higher transaction frequency.
 
 ---
 
@@ -377,19 +377,18 @@ The sharp drop in bike transactions during November 2021 (only 191
 transactions) suggests a recurring seasonal pattern toward year-end.
 If this repeats annually, management should proactively prepare by:
 - Running end-of-year promotions specifically for the Bikes category
-  to counteract the seasonal slowdown
+  to counteract the seasonal slowdown.
 - Shifting marketing focus to Accessories and Clothing during
-  low-season months to maintain revenue stability
+  low-season months to maintain revenue stability.
 
 ---
 
 ### 7) Expand into Higher Income Segments
 With 86.9% of customers coming from Average and Low Income brackets,
 Adventure Works has significant headroom to grow its presence among
-High and Very High Income segments (currently only 13.1%) — who
+High and Very High Income segments (currently only 13.1%) who
 carry higher revenue-per-transaction potential.
 
-> [!IMPORTANT]
 **Action:**
 - Strengthen the premium product lineup (high-end Bikes and Clothing)
 - Develop more aspirational marketing communication targeting
@@ -399,11 +398,11 @@ carry higher revenue-per-transaction potential.
   higher-spending segments
 
 
-_Source of Curriculum and Dataset: Maven Analytics_
-
 ### Repository Contents
  - Power BI Dashboard File: The main PBIX File containing the analysis and visualizations.
  - Data Sources: Raw Dataset used in the project.
  - Screenshots/Reports: Exported visualizations for sharing insights.
  - README.md: Project documentation (this file)
 
+---
+_Source of Curriculum and Dataset: Maven Analytics_
