@@ -2,18 +2,16 @@
 
 ![](image.png)
 
+
 ## Introduction
 
-This portfolio presents a Power BI project built as part of my learning journey through the Maven Analytics course "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/)." applied to the Adventure Works Bike Shop dataset (2020–2022).
+Andrian Wijaya, a data analyst learner completing the Maven Analytics course "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/).", developed this project as a hands on application of the skills acquired throughout the course. Using the Adventure Works Bike Shop dataset (2020–2022), the project simulates a real-world business intelligence scenario for a cycling retailer operating across three continents — Europe, North America, and Pacific.
 
-The project covers an end-to-end BI workflow across five areas:
-- **Data Transformation** — connecting and shaping multiple data sources (sales, customers, products, calendar) using Power Query through cleaning, merging, and appending steps
-- **Data Modeling** — building a star schema with defined table relationships and controlled filter flow directions\
-- **DAX Development** — writing measures and calculated columns for KPIs including Total Revenue, Profit, Return Rate, and dynamic period comparisons using CALCULATE, DIVIDE, DATEADD, and HASONEVALUE
-- **Data Visualization** — designing three interactive report pages (Executive Summary, Customer Detail, Product Detail) with KPI cards, trend charts, donut charts, gauge visuals, conditional formatting, and dynamic tooltips
-- **Optimization** — using Performance Analyzer to identify slow visuals and DAX queries, removing unused columns, and structuring dedicated measure tables
+However, operating a multi-continent retail business comes with its own challenges, including tracking revenue performance across product categories, understanding customer demographics and behavior, and monitoring product-level performance against targets.
 
-This repository serves as both a personal learning milestone and a reference for others exploring Power BI for business intelligence and data analytics.
+Analyzing sales data is essential for uncovering growth patterns, identifying high-value customer segments, and making data-driven decisions. This project leverages **Power BI** to analyze Adventure Works' sales, customer, and product data providing actionable insights into revenue trends, product profitability, and customer 
+segmentation. The analysis ultimately aims to support strategic decisions through evidence-backed findings and recommendations.
+
 
 ---
 
