@@ -2,25 +2,20 @@
 
 ![](image.png)
 
-## INTRODUCTION
-This portfolio presents a Power BI project developed as part of my learning journey through the Maven Analytics online course titled "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/)." The project reflects hands-on exercises and guided challenges provided within the course framework, applied to a real-world business dataset Adventure Works Bike Shop (2020–2022).
+## Introduction
 
-The structure and flow of this project follow the curriculum designed by the Maven Analytics team, emphasizing practical, real-world applications of Power BI including data transformation, data modeling, DAX calculations, interactive reporting, AI-powered visuals, and performance optimization.
+This portfolio presents a Power BI project built as part of my learning journey through the Maven Analytics course "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/)." applied to the Adventure Works Bike Shop dataset (2020–2022).
 
-This repository serves both as a personal learning milestone and a reference point for others exploring Power BI for business intelligence and data analytics.
+The project covers an end-to-end BI workflow across five areas:
+- **Data Transformation** — connecting and shaping multiple data sources (sales, customers, products, calendar) using Power Query through cleaning, merging, and appending steps
+- **Data Modeling** — building a star schema with defined table relationships and controlled filter flow directions\
+- **DAX Development** — writing measures and calculated columns for KPIs including Total Revenue, Profit, Return Rate, and dynamic period comparisons using CALCULATE, DIVIDE, DATEADD, and HASONEVALUE
+- **Data Visualization** — designing three interactive report pages (Executive Summary, Customer Detail, Product Detail) with KPI cards, trend charts, donut charts, gauge visuals, conditional formatting, and dynamic tooltips
+- **Optimization** — using Performance Analyzer to identify slow visuals and DAX queries, removing unused columns, and structuring dedicated measure tables
 
-I started by connecting and shaping data using Power Query cleaning, transforming, and combining multiple data sources including sales transactions, customer lookup, product catalog, and calendar tables through applied steps, merges, and appends.
+This repository serves as both a personal learning milestone and a reference for others exploring Power BI for business intelligence and data analytics.
 
-Next, I built a structured data model by defining table relationships, managing filter flow directions, and organizing a clean star schema to support accurate cross-table analysis.
-
-From there, I created calculated fields using DAX writing measures and calculated columns for KPIs such as Total Revenue, Profit, Return Rate, Revenue per Customer, and dynamic period-over-period comparisons using CALCULATE, DIVIDE, DATEADD, and HASONEVALUE.
-
-I then visualized the data through interactive report pages including an Executive Summary, Customer Detail, and Product Detail dashboard featuring KPI cards, trend line charts, donut charts, gauge visuals, conditional formatting, drill-through, and dynamic tooltips styled with a consistent Slate & Sage theme.
-
-I also explored Power BI's Artificial Intelligence features, including AI-powered visuals to surface automatic insights and anomaly detection within the trend data.
-
-Last but not least, I applied Power BI Optimization Tools using Performance Analyzer to identify slow visuals and DAX queries, reducing model size through unused column removal, and structuring dedicated measure tables to keep the data model clean and maintainable.
-
+---
 
 ## Table of Content
 📁 1. [Problem Statement](#1-problem-statement)  
@@ -41,7 +36,7 @@ Last but not least, I applied Power BI Optimization Tools using Performance Anal
 
 📁 9. [Recommendations](#9-recommendations)  
 
-
+---
 ## 1. Problem Statement
 Adventure Works Bike Shop needed a centralized view of their business performance across sales, customers, and products. The goal was to build an interactive dashboard that enables data-driven decisions by tracking revenue, profit, orders, return rates, and customer behavior over a 2.5-year period (Jan 2020 – Jun 2022).
 1. What is the total revenue, profit, and order volume for the business?
@@ -54,6 +49,8 @@ Adventure Works Bike Shop needed a centralized view of their business performanc
 8. Which products have the highest return rates and is it above or below the company average?
 9. How is product profit trending over time and is it consistently hitting targets?
 
+---
+
 ## 2. **Skills Demonstrated**
 - **Data Transformation**  
   - **Power Query** — Using Power Query to clean, transform, and shape raw data into an analysis-ready format, ensuring accuracy and consistency.
@@ -62,6 +59,8 @@ Adventure Works Bike Shop needed a centralized view of their business performanc
 - **Data Visualization** — KPI cards, gauge charts, line charts, donut charts, and matrix tables
 - **Conditional Formatting** — dynamic colors based on performance vs target
 - **UX Design** — consistent color theme, layout hierarchy, and slicer interactions
+
+---
 
 ## 3. **Data Sourcing**
 The dataset is based on the AdventureWorks sample database provided by Microsoft. It consists of 8 tables:
@@ -77,6 +76,8 @@ The dataset is based on the AdventureWorks sample database provided by Microsoft
 | Territory Lookup | Sales region and continent |
 | Calendar Lookup | Date dimension table |
 
+---
+
 ## 4. **Data Transformation**  
 Data was **cleaned** and transformed using Power Query (M Language):
 - Removed duplicate and null rows from all Data
@@ -91,10 +92,14 @@ Data was **cleaned** and transformed using Power Query (M Language):
 - Custom Calculation (DAX Measure)
   - Page 1: **Executive Dashboard**
     - ![](Assets/DAX_executive.png)
+      ---
   - Page 2: **Product Detail Dashboard**
     - ![](Assets/DAX_product.png)
+      ---
   - Page 3: **Customer Detail Dashboard**
     - ![](Assets/DAX_customer.png)
+
+---
 
 ## 5. **Data Modeling**
 ![](Assets/table_relationship.png)
@@ -103,6 +108,8 @@ Data was **cleaned** and transformed using Power Query (M Language):
 - All relationships are **single-direction** (one-to-many)
 - A dedicated **measure table** (`Measures`) stores all DAX calculations separately from raw data tables
 - No bi-directional relationships to maintain query performance
+
+---
 
 ## 6. **Data Visualization**  
 ![](Assets/dashboard.png)
@@ -397,6 +404,7 @@ carry higher revenue-per-transaction potential.
   Europe and North America to build brand presence in
   higher-spending segments
 
+---
 
 ### Repository Contents
  - Power BI Dashboard File: The main PBIX File containing the analysis and visualizations.
