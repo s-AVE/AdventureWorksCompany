@@ -36,16 +36,20 @@ segmentation. The analysis ultimately aims to support strategic decisions throug
 
 ---
 ## 1. Problem Statement
-Adventure Works Bike Shop needed a centralized view of their business performance across sales, customers, and products. The goal was to build an interactive dashboard that enables data-driven decisions by tracking revenue, profit, orders, return rates, and customer behavior over a 2.5-year period (Jan 2020 – Jun 2022).
-1. What is the total revenue, profit, and order volume for the business?
-2. Which product categories and products drive the most orders and revenue?
-3. How is monthly revenue and return rate trending over time?
-4. How many unique customers does Adventure Works have and what is the average revenue per customer?
-5. Which occupation and income segments place the most orders?
-6. Who are the top revenue-generating customers and what are their profiles?
+
+Adventure Works Bike Shop needed a centralized view of their business performance across sales, customers, and products. The goal was to build an interactive dashboard that enables data-driven decisions by tracking revenue, profit, orders, return rates, and customer behavior over a 2.5 year period (Jan 2020 – Jun 2022).
+
+**Challenge Key Questions to Explore**
+
+1. How do total revenue, profit, and order volume trend over time across the 2020–2022 period?
+2. Which product categories and individual products drive the most orders, revenue, and profit?
+3. How is monthly revenue and return rate trending and are there seasonal patterns to be aware of?
+4. How many unique customers does Adventure Works have, and what is the average revenue per customer?
+5. Which occupation and income segments contribute the most orders and transactions?
+6. Who are the top revenue-generating customers and what do their demographic profiles look like?
 7. How is each product performing against its monthly orders, revenue, and profit targets?
-8. Which products have the highest return rates and is it above or below the company average?
-9. How is product profit trending over time and is it consistently hitting targets?
+8. Which products have the highest return rates, and are they above or below the company average?
+9. How does return rate differ across continents Europe, North America, and Pacific?
 
 ---
 
