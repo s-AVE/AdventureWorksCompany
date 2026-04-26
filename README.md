@@ -5,11 +5,11 @@
 
 ## Introduction
 
-Andrian Wijaya, a data analyst learner completing the Maven Analytics course "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/).", developed this project as a hands on application of the skills acquired throughout the course. Using the Adventure Works Bike Shop dataset (2020–2022), the project simulates a real-world business intelligence scenario for a cycling retailer operating across three continents — Europe, North America, and Pacific.
+Andrian Wijaya, a data analyst learner completing the Maven Analytics course "[Microsoft Power BI Desktop for Business Intelligence](https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/).", developed this project as a hands on application of the skills acquired throughout the course. Using the Adventure Works Bike Shop dataset (2020–2022), the project simulates a real-world business intelligence scenario for a cycling retailer operating across three continents Europe, North America, and Pacific.
 
-However, operating a multi-continent retail business comes with its own challenges, including tracking revenue performance across product categories, understanding customer demographics and behavior, and monitoring product-level performance against targets.
+However, operating a multi continent retail business comes with its own challenges, including tracking revenue performance across product categories, understanding customer demographics and behavior, and monitoring product-level performance against targets.
 
-Analyzing sales data is essential for uncovering growth patterns, identifying high-value customer segments, and making data-driven decisions. This project leverages **Power BI** to analyze Adventure Works' sales, customer, and product data providing actionable insights into revenue trends, product profitability, and customer 
+Analyzing sales data is essential for uncovering growth patterns, identifying high value customer segments, and making data driven decisions. This project leverages **Power BI** to analyze Adventure Works' sales, customer, and product data providing actionable insights into revenue trends, product profitability, and customer 
 segmentation. The analysis ultimately aims to support strategic decisions through evidence-backed findings and recommendations.
 
 
