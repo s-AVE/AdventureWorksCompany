@@ -415,4 +415,7 @@ carry higher revenue-per-transaction potential.
  - README.md: Project documentation (this file)
 
 ---
+### Certification
+![](Power_BI_Certification.jpg)
+
 _Source of Curriculum and Dataset: Maven Analytics_
