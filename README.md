@@ -410,8 +410,8 @@ carry higher revenue-per-transaction potential.
 
 ### Repository Contents
  - Power BI Dashboard File: The main PBIX File containing the analysis and visualizations.
- - Data Sources: Raw Dataset used in the project.
- - Screenshots/Reports: Exported visualizations for sharing insights.
+ - Data Sources: [Raw Dataset](AdventureWorks_Raw_Data) used in the project.
+ - Screenshots/Reports: [Exported visualizations](Assets) for sharing insights.
  - README.md: Project documentation (this file)
 
 ---
